@@ -1,0 +1,119 @@
+a:link {text-decoration-line: none; color: dodgerblue;}
+a:visited {color: dodgerblue;}
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 0px 25px 25px 25px;
+    font-family: 'Arial';
+    font-stretch: narrower;
+    background-color:white;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 80%);   
+}
+
+#email-label{
+    font-size: 11pt;
+    margin-top: 20px;
+}
+
+.password-label{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+.form{
+    width: 100%;
+    padding: 9px 10px;
+    font-size: 12pt;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.5px solid darkgray;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.button{
+    width: 100%;
+    background-color: hwb(47 0% 0%);
+    color: black;
+    padding: 9px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-account{
+    width: 420px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Helvetica Neue';
+    color: gray;
+}
+
+.line-organize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.hr-line{
+    width: 142px;
+    height: 0;
+    border: 0.1px solid gray;
+
+}
+
+.button2{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Helvetica Neue';
+    font-size: small;
+    text-decoration: none;
+    text-decoration-color: dodgerblue;
+    background-color:white;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#copyright{
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    font-size: 10pt;
+}
